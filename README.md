@@ -1,4 +1,4 @@
-# bdsn-examples
+# bwsn-examples
 Example code from book Building Wireless Sensor Networks
 
 The example project "Simple sensor network" in Chapter 5 doesn't work with the newer Processing, because the xbee-api library (http://code.google.com/p/xbee-api/) used by the sketch has some dependencies that are not supported by Processing any more. Some suggest to downgrade to Processing 1.5.1 to make the example work, which I failed on trying due to another weird Java issue (on Mac OSX), so I decided to take another approach: change the code to work with the (new?) Java API provided by Digi (creator of XBee modules).
